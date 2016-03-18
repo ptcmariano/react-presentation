@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Know NPM and (above beginner) JavaScript
+- Know npm and JavaScript (intermediate-level)
 - Know command-line
 - Know Git
 
@@ -13,7 +13,7 @@ Treat each of these folders as it's own web root. Each one will need an `npm ins
 
 
 ### 1. Hello World
- - Webpack (without babel (ES6) or react)
+ - Webpack (without Babel (ES6) or React)
  - Source Maps
 
 Install
