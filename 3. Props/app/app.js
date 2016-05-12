@@ -7,7 +7,7 @@ import Anchor from 'ui/anchor';
 
 ReactDOM.render((
     <Nav>
-        <Anchor goSomewhere="http://google.com" text="Googles"/><br />
+        <Anchor goSomewhere="http://google.com" text="Googles"/>
         <Anchor goSomewhere="http://twitter.com" text="Twitters"/>
     </Nav>
 ), document.getElementById('root'));

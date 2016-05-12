@@ -3,7 +3,10 @@ import React from 'react';
 const FirstComponent = React.createClass({
     render: function() {
         return (
-            <div>Hello World</div>
+            <div>
+                <h1>Hello World</h1>
+                <p>FirstComponent</p>
+            </div>
         )
     }
 });

@@ -10,9 +10,9 @@ gulp.task('webpack', function() {
 });
 
 // Web Server
-gulp.task('serve:web', serve({
+gulp.task('serve:web', ['webpack'], serve({
   root: ['.'],
   port: 8000
 }));
 
-gulp.task('default', ['webpack', 'serve:web']);
+gulp.task('default', ['serve:web']);
